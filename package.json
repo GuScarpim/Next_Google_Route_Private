@@ -1,0 +1,31 @@
+{
+  "name": "Next_Google_Route_Private",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuScarpim/Next_Google_Route_Private.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuScarpim/Next_Google_Route_Private/issues"
+  },
+  "homepage": "https://github.com/GuScarpim/Next_Google_Route_Private#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "next-images": "^1.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-google-login": "^5.1.21",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.1"
+  }
+}
