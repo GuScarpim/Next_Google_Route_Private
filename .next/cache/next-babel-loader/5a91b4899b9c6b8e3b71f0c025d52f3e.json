@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled, { createGlobalStyle, css } from 'styled-components';\nexport const Container = styled.div`\n  width: 100vw;\n\theight: 100vh;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tjustify-content: center;\n\tpadding: 20px 0;\n  \n* {\n\tfont-family: \"Roboto\", sans-serif;\n}\n`;","map":null,"metadata":{},"sourceType":"module"}
