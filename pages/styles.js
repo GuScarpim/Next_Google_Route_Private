@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const Globals = styled.div`
+  background-color: rgba(17, 27, 168, 0.589);
+`
+
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
