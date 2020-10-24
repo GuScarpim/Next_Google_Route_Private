@@ -1,12 +1,15 @@
 {
   "name": "Next_Google_Route_Private",
   "version": "1.0.0",
-  "description": "",
+  "description": "Autenticação com o Google",
   "main": "index.js",
+  "private": false,
+  "homepage": "https://guscarpim.github.io/Next_Google_Route_Private/",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "repository": {
     "type": "git",

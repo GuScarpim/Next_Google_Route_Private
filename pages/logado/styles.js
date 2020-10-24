@@ -33,6 +33,9 @@ export const Card = styled.div`
 
   span {
     margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 
 `

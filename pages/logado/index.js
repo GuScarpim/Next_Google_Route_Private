@@ -25,7 +25,7 @@ export default function Logado() {
     if (localStorage.getItem('token') === null)
       Router.push('/')
     else
-      setToken(localStorage.getItem('token'));
+    setToken(localStorage.getItem('token'));
     setName(localStorage.getItem('name'));
     setEmail(localStorage.getItem('email'));
     setImageUrl(localStorage.getItem('imageUrl'));
